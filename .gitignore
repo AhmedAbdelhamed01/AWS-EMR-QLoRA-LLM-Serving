@@ -1,0 +1,107 @@
+# ══════════════════════════════════════════════════════════════════════════════
+#  CISC 886 — Cloud-Based Conversational Chatbot
+#  .gitignore — Prevents sensitive/large/generated files from being committed
+# ══════════════════════════════════════════════════════════════════════════════
+
+# ── AWS Credentials & SSH Keys ───────────────────────────────────────────────
+*.pem
+*.key
+.aws/
+credentials
+aws_credentials.txt
+
+# ── Terraform State & Sensitive Files ────────────────────────────────────────
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+terraform.tfvars
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# ── Jupyter Notebook Checkpoints ─────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Raw & Processed Data (too large for GitHub) ──────────────────────────────
+raw_data/
+processed_data/
+processed_data_clean/
+eda_plots/
+*.jsonl
+*.parquet
+*.json.gz
+*.csv
+
+# ── Model Files (large binary files) ─────────────────────────────────────────
+*.gguf
+*.bin
+*.safetensors
+*.pkl
+*.h5
+*.pt
+*.pth
+models/
+
+# ── Local IDE / Editor Files ─────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Compressed Archives ─────────────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.tar.bz2
+*.7z
+*.rar
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Environment Variable Files ───────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── LaTeX Build Artifacts ────────────────────────────────────────────────────
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.vrb
