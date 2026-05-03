@@ -316,8 +316,8 @@ pip install datasets huggingface_hub boto3 pandas pyarrow
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/AhmedHussain007/cisc886-project.git
-cd cisc886-project
+git clone https://github.com/AhmedAbdelhamed01/AWS-EMR-QLoRA-LLM-Serving.git
+cd AWS-EMR-QLoRA-LLM-Serving
 
 # 2. Provision AWS infrastructure
 cd terraform
