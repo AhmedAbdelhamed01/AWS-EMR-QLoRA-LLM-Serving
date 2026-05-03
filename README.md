@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>CISC 886 — Cloud Computing | Queen's University</strong><br/>
-  Ahmed Hussain · NetID: 25nsfb · School of Computing
+  <strong>Group 9:</strong> Ahmed Abdelhamed (25nsfb) · Eid Mohamed (25ntxj) · Ahmed Sherif (25rlnk)
 </p>
 
 <p align="center">
