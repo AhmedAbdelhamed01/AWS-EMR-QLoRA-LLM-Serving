@@ -1,12 +1,9 @@
 <p align="center">
-  <img src="report/figures/architecture.png" alt="System Architecture" width="850"/>
 </p>
 
 <h1 align="center">☁️ Cloud-Based Conversational Chatbot</h1>
 
 <p align="center">
-  <strong>CISC 886 — Cloud Computing | Queen's University</strong><br/>
-  <strong>Group 9:</strong> Ahmed Abdelhamed (25nsfb) · Eid Mohamed (25ntxj) · Ahmed Sherif (25rlnk)
 </p>
 
 <p align="center">
